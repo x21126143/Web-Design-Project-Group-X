@@ -18,23 +18,23 @@ body{
 }
 
 .home{
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .space{
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .products{
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .reviews{
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .contact_us{
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .home-header-content{
@@ -101,10 +101,14 @@ body{
   float:none;
   display: flex;
   justify-content: space-around;
+  z-index: 100;
 }
 
 .navbar-toggler{
   padding: 0 0 0 0;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 
