@@ -1,74 +1,32 @@
-html{
-  height: 100%;
-  margin: 0;
-}
-
 body{
-  min-height: 100%;
   background: #eeeeee;
-  margin: 0;
-
-
-
-}
-
-.container-fluid{
-  padding: 0 0 0 0;
-  width: 100%;
-}
-
-.home{
-  font-size: 14px;
-}
-
-.space{
-  font-size: 14px;
-}
-
-.products{
-  font-size: 14px;
-}
-
-.reviews{
-  font-size: 14px;
-}
-
-.contact_us{
-  font-size: 14px;
+  min-width: 50%;
 }
 
 .home-header-content{
-  min-height: 100%;
-  background: linear-gradient(#9fc4f8, #ffe7c8) fixed;
-  padding-top:3%;
-  padding: 0 0 0 0;
-
-
-
+  margin-top:-5%;
+  background: linear-gradient(#9fc4f8, #ffe7c8);
+  padding-top: 3%;
 }
 
 
 .home-border-content{
-  min-height: 100%;
   background: linear-gradient(#d1f0df, #eeeeee);
   margin: 0 0 0 0;
-  padding-bottom: 3%;
-
-
+  padding-top:50px;
   position: relative;
 }
 
 .home-body-content{
   background: #eeeeee;
   position: relative;
-  padding-bottom:2%;
 }
 
 .home-footer-content{
   background: #d1f0df;
-  bottom: 0px;
+  bottom: 0;
   opacity: 60%;
-
+  position: absolute;
 }
 
 .row{
@@ -81,11 +39,6 @@ body{
   text-align: center;
 }
 
-.login{
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .copyright{
   text-align: center;
   margin-top: 3px;
@@ -93,22 +46,24 @@ body{
   color: grey;
 }
 
+.home{
+  margin-left:50px;
+}
 
 .navbar-custom{
   background-color: #eeeeee;
-  position: fixed;
-  width:100%;
-  float:none;
-  display: flex;
-  justify-content: space-around;
+  opacity: 75%;
 }
 
-.navbar-toggler{
-  padding: 0 0 0 0;
+.row{
+  min-width: 1920px;
+  min-height: inherit;
 }
 
-
-
+nav{
+  border-style: groove;
+  border-width: thin;
+}
 
 h1{
   font-family: 'Meow Script', cursive;
@@ -120,61 +75,58 @@ h1{
   text-shadow: -1px -1px 0 #000, 4px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-h2{
-  font-family: 'Zen Maru Gothic', sans-serif;
-  text-align: center;
-  color: BLACK;
-}
 
 h3{
   font-family: 'Zen Maru Gothic', sans-serif;
   text-align: center;
   color: #DDDDDD;
-  font-size: 25px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
-hr{
-  margin: 0 0 0 0;
+form{
+  padding-top: 40px;
+  margin-left: -30px;
+  position: absolute;
 }
 
 button{
   background-color: #9fc4f8;
   border: none;
   color: white;
-  padding: 2px 4px;
-  border-radius: 8%;
+  padding: 6px 18px;
+  border-radius: 8px;
   transition-duration: 0.2s;
 }
 
 button:hover{
   background-color: #eb9233; /* Green */
   color: white;
-
 }
 
-form{
-  text-align: center;
-}
-
+textarea {
+   resize:none;
+ }
 
 
 #schnauzer-image{
-  width:14%;
+  width:20%;
   height: auto;
   position: relative;
   padding: 0 0 0 0;
-  margin-top: 5%;
-  margin-left:43%;
+  margin-top: 50px;
+  margin-left:40%;
 }
 
 
 #tree-image{
-  width:50%;
+  width:150%;
   height:auto;
   position: relative;
   padding: 0 0 0 0;
-  margin-left:50%;
-  margin-bottom:-10%;
+  margin-top:  50%;
+  margin-bottom:-29%;
+  margin-left: -90%;
 }
 
 #login-button{
@@ -182,23 +134,11 @@ form{
 }
 
 #sun{
-  width:30%;
+  width:50%;
   height: auto;
   position: relative;
   padding: 0 0 0 0;
-  margin-left: 5%;
-  margin-bottom:-90%;
-}
-
-
-@media (max-width:400px) {
-  #sun{
-    width:30%;
-    height: auto;
-    position: relative;
-    padding: 0 0 0 0;
-    margin-left: 5%;
-    margin-bottom:-132%;
-  }
-
+  margin-left: 250%;
+  margin-top:30%;
+  margin-bottom:-38%;
 }
