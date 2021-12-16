@@ -24,23 +24,23 @@ footer{
 }
 
 .home{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .space{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .products{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .reviews{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .contact_us{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .home-header-content{
@@ -67,7 +67,7 @@ footer{
 .home-body-content{
   background: #eeeeee;
   position: relative;
-  padding-bottom:2%;
+  padding-bottom:6%;
 }
 
 .home-footer-content{
@@ -126,7 +126,7 @@ footer{
 h1{
   font-family: 'Meow Script', cursive;
   text-align: center;
-  font-size: 5vw;
+  font-size: 8vw;
   color: #eb9233;
   font-weight: bolder;
   position: relative;
@@ -176,7 +176,7 @@ form{
   height: auto;
   position: relative;
   padding: 0 0 0 0;
-  margin-top: 5%;
+  margin-top: 13%;
   margin-left:43%;
 }
 
@@ -200,7 +200,7 @@ form{
   position: relative;
   padding: 0 0 0 0;
   margin-left: 5%;
-  margin-bottom:-90%;
+  margin-bottom:-27%;
 }
 
 
@@ -211,7 +211,7 @@ form{
     position: relative;
     padding: 0 0 0 0;
     margin-left: 5%;
-    margin-bottom:-132%;
+    margin-top:5%;
   }
 
 }
