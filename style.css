@@ -1,20 +1,26 @@
 html{
   height: 100%;
-  margin: 0;
 }
 
 body{
-  min-height: 100%;
   background: #eeeeee;
   margin: 0;
-
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 
 
 }
 
+footer{
+  margin-top: auto;
+}
+
+
 .container-fluid{
   padding: 0 0 0 0;
-  width: 100%;#
+  min-height: 100%;
+  width: 100%;
 }
 
 .home{
@@ -67,7 +73,10 @@ body{
 .home-footer-content{
   background: #d1f0df;
   bottom: 0px;
+  left:0px;
   opacity: 60%;
+  margin-top: auto;
+  position: fixed;
 
 }
 
