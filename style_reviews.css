@@ -1,0 +1,235 @@
+html{
+  height: 100%;
+}
+
+body{
+  background: #eeeeee;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+
+}
+
+footer{
+  margin-top: auto;
+}
+
+
+.container-fluid{
+  padding: 0 0 0 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+.home{
+  font-size: 2vh;
+}
+
+.space{
+  font-size: 2vh;
+}
+
+.products{
+  font-size: 2vh;
+}
+
+.reviews{
+  font-size: 2vh;
+}
+
+.contact_us{
+  font-size: 2vh;
+}
+
+.home-header-content{
+  min-height: 50%;
+  background: linear-gradient(#9fc4f8, #ffe7c8) fixed;
+  padding-top:3%;
+  padding: 0 0 0 0;
+
+
+
+}
+
+
+.home-border-content{
+  min-height: 100%;
+  background: linear-gradient(#d1f0df, #eeeeee);
+  margin: 0 0 0 0;
+
+
+  position: relative;
+}
+
+.home-body-content{
+  background: #eeeeee;
+  position: relative;
+  padding-bottom:6%;
+}
+
+.home-footer-content{
+  background: #d1f0df;
+  bottom: 0;
+  left:0;
+  opacity: inherit;
+  margin-top: auto;
+  position: fixed;
+
+}
+
+.row{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body-headings{
+  color: #eb9233;
+  text-align: center;
+}
+
+.review-name{
+  color: #eb9233;
+  text-align: center;
+}
+
+.login{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyright{
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  color: grey;
+}
+
+
+.navbar-custom{
+  position: fixed;
+  width:100%;
+  float:none;
+  display: flex;
+  justify-content: space-around;
+  z-index: 100;
+
+}
+
+.navbar-toggler{
+  padding: 0 0 0 0;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+
+
+h1{
+  font-family: 'Meow Script', cursive;
+  text-align: center;
+  font-size: 3vw;
+  color: #eb9233;
+  font-weight: bolder;
+  position: relative;
+  padding-bottom -10%;
+  text-shadow: -1px -1px 0 #000, 4px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h2{
+  font-family: 'Zen Maru Gothic', sans-serif;
+  text-align: center;
+  color: BLACK;
+}
+
+h3{
+  font-family: 'Zen Maru Gothic', sans-serif;
+  text-align: center;
+  color: #DDDDDD;
+  font-size: 25px;
+}
+
+hr{
+  margin: 0 0 0 0;
+
+}
+
+button{
+  background-color: #9fc4f8;
+  border: none;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 8%;
+  transition-duration: 0.2s;
+}
+
+button:hover{
+  background-color: #eb9233; /* Green */
+  color: white;
+
+}
+
+form{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+
+#schnauzer-image{
+  width:6%;
+  height: auto;
+  position: relative;
+  padding: 0 0 0 0;
+  margin-top: 8%;
+  margin-left:47%;
+}
+
+
+#tree-image{
+  width:70%;
+  height:auto;
+  position: relative;
+  padding: 0 0 0 0;
+  margin-top:80%;
+  margin-left: -30%;
+  margin-bottom:-10%;
+
+
+}
+
+#login-button{
+  margin-left:200px;
+}
+
+#sun{
+  width:15%;
+  height: auto;
+  position: relative;
+  padding: 0 0 0 0;
+  margin-bottom:4%;
+  margin-left: 60%;
+}
+
+#dogCollar1{
+  width:30%;
+  height: auto;
+  margin-left:35%;
+  border-radius: 90%;
+}
+
+@media (max-width:400px) {
+  #sun{
+    width:10%;
+    height: auto;
+    position: relative;
+    padding: 0 0 0 0;
+    margin-left: 60%;
+    margin-top:-40%;
+  }
+
+}
