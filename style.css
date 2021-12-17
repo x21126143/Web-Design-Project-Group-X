@@ -24,23 +24,23 @@ footer{
 }
 
 .home{
-  font-size: 3vh;
+  font-size: 2vh;
 }
 
 .space{
-  font-size: 3vh;
+  font-size: 2vh;
 }
 
 .products{
-  font-size: 3vh;
+  font-size: 2vh;
 }
 
 .reviews{
-  font-size: 3vh;
+  font-size: 2vh;
 }
 
 .contact_us{
-  font-size: 3vh;
+  font-size: 2vh;
 }
 
 .home-header-content{
@@ -72,9 +72,9 @@ footer{
 
 .home-footer-content{
   background: #d1f0df;
-  bottom: 0px;
-  left:0px;
-  opacity: 60%;
+  bottom: 0;
+  left:0;
+  opacity: inherit;
   margin-top: auto;
   position: fixed;
 
@@ -104,10 +104,8 @@ footer{
 
 
 .navbar-custom{
-  background-color: #eeeeee;
   position: fixed;
   width:100%;
-  height:0px;
   float:none;
   display: flex;
   justify-content: space-around;
