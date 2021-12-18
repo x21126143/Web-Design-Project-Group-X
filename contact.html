@@ -20,57 +20,56 @@
 <body>
 
   <!-- Creating a navbar with the help of nested bootstrap statements. Reference: https://getbootstrap.com/docs/4.0/components/navbar/ -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-blue navbar-custom">
+  <nav class="navbar navbar-expand-xs navbar-light bg-blue navbar-custom">
 
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
     <a class="navbar-brand home" href="#">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
-      <span class="home-toggler-icon"></span>
+
     </button>
 
     <a class="navbar-brand space">|</a>
 
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
     <a class="navbar-brand products" href="#">Products</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
-      <span class="home-toggler-icon"></span>
     </button>
 
     <a class="navbar-brand space">|</a>
 
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
     <a class="navbar-brand reviews" href="#">Reviews</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
-      <span class="home-toggler-icon"></span>
     </button>
 
     <a class="navbar-brand space">|</a>
 
-    <a class="navbar-brand contact_us" href="#">Contact Us</a>
+
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
-      <span class="home-toggler-icon"></span>
+    <a class="navbar-brand contact_us" href="#">Contact Us</a>
     </button>
   </nav>
 
-
+<div class="container-fluid">
 
   <div class="row">
-    <div class="col-sm-4 content-padding home-header-content">
-      <img id="sun" src="./images/Sun.png" alt="Sun">
-      <!-- <img id="dog-toys" src="./images/dog_toys.png" alt="dog-toys">-->
-    </div>
 
-    <div class="col-sm-4 content-padding home-header-content">
+
+    <div class="col-xs-4 content-padding home-header-content">
       <img id="schnauzer-image" src="./images/schnauzer2.png" alt="schnauzer-logo">
       <h1>Doggy Den</h1>
     </div>
 
-    <div class="col-sm-2 content-padding home-header-content">
 
-    </div>
 
-    <div class="col-sm-2 content-padding home-header-content">
+    <div class="col-xs-2 content-padding home-header-content">
+      <img id="sun" src="./images/Sun.png" alt="Sun">
       <img id="tree-image" src="./images/tree.png" alt="tree">
-    </div>
   </div>
 
+  <hr>
 
 
   <div class="row">
@@ -78,7 +77,6 @@
     </div>
   </div>
 
-  <div class="container-fluid overflow-hidden" id="container">
     <div class="row">
       <div class="col-sm-12 content-padding home-body-content">
         <h3 class="body-headings">Contact us here!</h3>
@@ -120,8 +118,8 @@
               </div>
 
               <div class="row justify-content-center">
-                  <div class="form-group g-4 col-sm-1 flex-column d-flex">
-                  <button type="submit">Submit</button>
+                  <div class="form-group g-4 col-sm-2 flex-column d-flex">
+                  <button type="submit" id = "but">Submit</button>
                   </div>
               </div>
 
@@ -129,10 +127,9 @@
           </div>
         </form>
       </div>
-    </div>
-
+   </div>
   <div class="row">
-    <div class="col-sm-12 content-padding home-footer-content">
+    <div class="col-xs-12 content-padding home-footer-content">
       <p class="copyright">Copyright @ Barking Mad Industries</p>
     </div>
 </div>

@@ -1,37 +1,63 @@
+html{
+  height: 100%;
+}
+
 body{
   background: #eeeeee;
-  min-width: 50%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer{
+  margin-top: auto;
+}
+
+.container-fluid{
+  padding: 0 0 0 0;
+  min-height: 100%;
+  width: 100%;
 }
 
 .home-header-content{
-  margin-top:-5%;
-  background: linear-gradient(#9fc4f8, #ffe7c8);
-  padding-top: 3%;
+  min-height: 100%;
+  background: linear-gradient(#9fc4f8, #ffe7c8) fixed;
+  padding-top:3%;
+  padding: 0 0 0 0;
+  margin-bottom: inherit;
 }
 
 
 .home-border-content{
+  min-height: 100%;
   background: linear-gradient(#d1f0df, #eeeeee);
   margin: 0 0 0 0;
-  padding-top:50px;
+  padding-bottom: 3%;
   position: relative;
 }
 
 .home-body-content{
   background: #eeeeee;
   position: relative;
+
+  margin-bottom: -2%;
 }
 
 .home-footer-content{
   background: #d1f0df;
   bottom: 0;
+  left:0;
   opacity: 60%;
-  position: absolute;
+  margin-top: auto;
+  position: fixed;
 }
 
 .row{
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .body-headings{
@@ -46,24 +72,22 @@ body{
   color: grey;
 }
 
-.home{
-  margin-left:50px;
-}
-
 .navbar-custom{
-  background-color: #eeeeee;
-  opacity: 75%;
+  position: fixed;
+  width:100%;
+  float:none;
+  display: flex;
+  justify-content: space-around;
+  z-index: 100;
 }
 
-.row{
-  min-width: 1920px;
-  min-height: inherit;
+.navbar-toggler{
+  padding: 0 0 0 0;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
-nav{
-  border-style: groove;
-  border-width: thin;
-}
 
 h1{
   font-family: 'Meow Script', cursive;
@@ -84,10 +108,12 @@ h3{
   font-weight: bold;
 }
 
+hr{
+  margin: 0 0 0 0;
+}
+
 form{
-  padding-top: 40px;
-  margin-left: -30px;
-  position: absolute;
+  padding-top: 2%;
 }
 
 button{
@@ -99,9 +125,16 @@ button{
   transition-duration: 0.2s;
 }
 
+#but{
+  padding: inherit;
+  text-align: center;
+  padding: 6px 6px;
+}
+
 button:hover{
   background-color: #eb9233; /* Green */
   color: white;
+  text-align: center;
 }
 
 textarea {
@@ -110,35 +143,43 @@ textarea {
 
 
 #schnauzer-image{
-  width:20%;
+  align-items: center;
+  width:14%;
   height: auto;
   position: relative;
   padding: 0 0 0 0;
-  margin-top: 50px;
-  margin-left:40%;
+  margin-top: 8%;
+  margin-left:43%;
 }
 
 
 #tree-image{
-  width:150%;
+  width:50%;
   height:auto;
   position: relative;
   padding: 0 0 0 0;
-  margin-top:  50%;
-  margin-bottom:-29%;
-  margin-left: -90%;
-}
-
-#login-button{
-  margin-left:200px;
+  margin-bottom:-10%;
+  margin-left: 49.5%;
 }
 
 #sun{
-  width:50%;
+  width:30%;
   height: auto;
   position: relative;
   padding: 0 0 0 0;
-  margin-left: 250%;
-  margin-top:30%;
-  margin-bottom:-38%;
+  margin-left: 68%;
+  margin-bottom:-27%;
+  margin-top: 4%;
+}
+
+@media (max-width:400px) {
+  #sun{
+    width:30%;
+    height: auto;
+    position: relative;
+    padding: 0 0 0 0;
+    margin-left: 5%;
+    margin-top:5%;
+  }
+
 }

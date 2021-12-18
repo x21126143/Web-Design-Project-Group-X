@@ -186,8 +186,8 @@ form{
   height:auto;
   position: relative;
   padding: 0 0 0 0;
-  margin-left:50%;
   margin-bottom:-10%;
+  margin-left:-10%;
 }
 
 #login-button{
