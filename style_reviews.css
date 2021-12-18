@@ -48,9 +48,7 @@ footer{
   background: linear-gradient(#9fc4f8, #ffe7c8) fixed;
   padding-top:3%;
   padding: 0 0 0 0;
-
-
-
+  margin-top: -1%;
 }
 
 
@@ -191,13 +189,15 @@ p{
 
 
 #tree-image{
-  width:70%;
+  width:90%;
   height:auto;
   position: relative;
   padding: 0 0 0 0;
   margin-top:80%;
   margin-left: -30%;
-  margin-bottom:-10%;
+  margin-bottom:18%;
+  top:23%;
+
 
 
 }
@@ -207,12 +207,14 @@ p{
 }
 
 #sun{
-  width:15%;
+  width:55%;
   height: auto;
   position: relative;
   padding: 0 0 0 0;
-  margin-bottom:4%;
-  margin-left: 60%;
+  margin-top:0%;
+  margin-left: 20%;
+  transform: rotateX(180deg);
+  top:0;
 }
 
 #dogCollar1{
@@ -222,14 +224,58 @@ p{
   border-radius: 90%;
 }
 
-@media (max-width:400px) {
+@media (max-width:580px) {
   #sun{
-    width:10%;
+    width:25%;
     height: auto;
     position: relative;
     padding: 0 0 0 0;
     margin-left: 60%;
-    margin-top:-40%;
+    margin-top:-50%;
   }
+
+  #tree-image{
+    width:40%;
+    margin-top:20%;
+    margin-bottom: 3%;
+    margin-left:60%;
+    height:auto;
+    position: relative;
+
+
+
+
+  }
+
+  #schnauzer-image{
+    width:20%;
+    height: auto;
+    position: relative;
+    padding: 0 0 0 0;
+    margin-top: 15%;
+    margin-left:40%;
+    top:10%;
+  }
+
+  .home-header-content{
+    min-height: 50%;
+    background: linear-gradient(#9fc4f8, #ffe7c8) fixed;
+    padding-top:3%;
+    padding: 0 0 0 0;
+    margin-top: -10%;
+  }
+
+  h1{
+    font-family: 'Meow Script', cursive;
+    text-align: center;
+    font-size: 5vw;
+    color: #eb9233;
+    font-weight: bolder;
+    position: relative;
+    padding-bottom -10%;
+    text-shadow: -1px -1px 0 #000, 4px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    top:10%;
+  }
+
 
 }
