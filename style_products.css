@@ -252,32 +252,44 @@ button:hover{
 
 #para2{
   margin-left: 54%;
-  margin-top: 30%;
+  margin-top: 20%;
   margin-bottom: -30%;
   font-size: 20px;
   font-weight: bold;
 }
 
 #button1{
-  margin-top: 45%;
+  margin-top: 10%;
   margin-left: 50%;
 }
 
 #button2{
-  margin-top: 45%;
+  margin-top: 10%;
   margin-left: 50%;
 }
 
 #button3{
-  margin-top: 45%;
+  margin-top: 10%;
   margin-left: 50%;
 }
 
 #button4{
-  margin-top: 45%;
+  margin-top: 10%;
   margin-left: 50%;
 }
 
 #bottom{
   margin-bottom: 6%;
+}
+
+#quantity1, #quantity2, #quantity3, #quantity4 {
+  margin-left: 5%;
+  margin-top: 40%;
+  margin-bottom: -30%;
+  width: 20%;
+}
+
+#label1{
+  margin-left: 30%;
+  font-weight: bold;
 }
