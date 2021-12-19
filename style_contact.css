@@ -1,7 +1,9 @@
+/*Set the height of the html page to 100%*/
 html{
   height: 100%;
 }
 
+/*styling for the content in the body*/
 body{
   background: #eeeeee;
   margin: 0;
@@ -14,12 +16,14 @@ footer{
   margin-top: auto;
 }
 
+/*setting the height and width for the container*/
 .container-fluid{
   padding: 0 0 0 0;
   min-height: 100%;
   width: 100%;
 }
 
+/*Set the header colour and sizing*/
 .home-header-content{
   min-height: 100%;
   background: linear-gradient(#9fc4f8, #ffe7c8) fixed;
@@ -28,7 +32,7 @@ footer{
   margin-bottom: inherit;
 }
 
-
+/*Set gradient from green to grey below the header*/
 .home-border-content{
   min-height: 100%;
   background: linear-gradient(#d1f0df, #eeeeee);
@@ -37,13 +41,14 @@ footer{
   position: relative;
 }
 
+/*Colour and position of the body*/
 .home-body-content{
   background: #eeeeee;
   position: relative;
-
   margin-bottom: -2%;
 }
 
+/*Styling for the footer*/
 .home-footer-content{
   background: #d1f0df;
   bottom: 0;
@@ -53,6 +58,7 @@ footer{
   position: fixed;
 }
 
+/*Set margin for the rows*/
 .row{
   margin-left: auto;
   margin-right: auto;
@@ -60,11 +66,13 @@ footer{
   margin-bottom: auto;
 }
 
+/*Colour and text align for main title*/
 .body-headings{
   color: #eb9233;
   text-align: center;
 }
 
+/*Footer text styling*/
 .copyright{
   text-align: center;
   margin-top: 3px;
@@ -72,6 +80,7 @@ footer{
   color: grey;
 }
 
+/*Navbar styling and size*/
 .navbar-custom{
   position: fixed;
   width:100%;
@@ -88,7 +97,7 @@ footer{
   box-shadow: none;
 }
 
-
+/*Font type and text size and positioning for main header*/
 h1{
   font-family: 'Meow Script', cursive;
   text-align: center;
@@ -99,7 +108,7 @@ h1{
   text-shadow: -1px -1px 0 #000, 4px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-
+/*Font type, size and positioning for the h3 tag which is the "contact us here" text*/
 h3{
   font-family: 'Zen Maru Gothic', sans-serif;
   text-align: center;
@@ -108,14 +117,17 @@ h3{
   font-weight: bold;
 }
 
+/*margin on the horizontal break in between header and body*/
 hr{
   margin: 0 0 0 0;
 }
 
+/*Padding for the form*/
 form{
   padding-top: 2%;
 }
 
+/*Buton size and colour wit rounded edges*/
 button{
   background-color: #9fc4f8;
   border: none;
@@ -125,27 +137,30 @@ button{
   transition-duration: 0.2s;
 }
 
+/*Submit form button size*/
 #but{
   padding: inherit;
   text-align: center;
   padding: 6px 6px;
 }
 
+/*Change button colour when mouse cursor is over it*/
 button:hover{
   background-color: #eb9233; /* Green */
   color: white;
   text-align: center;
 }
 
+/*Do not allow the text area to be resized*/
 textarea {
    resize:none;
  }
 
-
+/*Size and adjustments for images*/
 #schnauzer-image{
   align-items: center;
-  width:14%;
-  height: auto;
+  width:14%;  /*width of image*/
+  height: auto; /*height of item relative to width*/
   position: relative;
   padding: 0 0 0 0;
   margin-top: 8%;
@@ -172,6 +187,7 @@ textarea {
   margin-top: 4%;
 }
 
+/*Define different styling for use with mobile*/
 @media (max-width:400px) {
   #sun{
     width:30%;
