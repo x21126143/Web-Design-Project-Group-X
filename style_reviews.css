@@ -123,6 +123,13 @@ footer{
 }
 
 
+.dogCollar1{
+  width:30%;
+  height: auto;
+  margin-left:35%;
+  border-radius: 90%;
+}
+
 
 
 h1{
@@ -218,12 +225,7 @@ p{
   top:0;
 }
 
-#dogCollar1{
-  width:30%;
-  height: auto;
-  margin-left:35%;
-  border-radius: 90%;
-}
+
 
 @media (max-width:580px) {
   #sun{

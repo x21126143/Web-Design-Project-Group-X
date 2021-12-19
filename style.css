@@ -222,6 +222,16 @@ form{
     padding: 0 0 0 0;
     margin-left: 5%;
     margin-top:5%;
+    top: 45%;
   }
+
+  #tree-image{
+    width:50%;
+    height:auto;
+    position: relative;
+    padding: 0 0 0 0;
+    margin-bottom:-10%;
+    margin-left:50%;
+
 
 }
