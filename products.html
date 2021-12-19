@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Products</title>
+  <script src="script_products.js"></script>
+
+  <!-- This block of code is used to link the bootstrap CSS and JS CDN instead of downloading it.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Linking the stylesheet 'style.css' for the entire project.-->
+  <link rel="stylesheet" href="./style_products.css">
+
+  <!-- The google API links for importing a visually pleasing font type for the H1 and H2s. -->
+  <link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+
+  <!-- Creating a navbar with the help of nested bootstrap statements. Reference: https://getbootstrap.com/docs/4.0/components/navbar/  -->
+
+  <nav class="navbar navbar-expand-xs navbar-light bg-blue navbar-custom">
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+      <a class="navbar-brand home" href="./index.html">Home</a>
+
+    </button>
+
+    <a class="navbar-brand space">|</a>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+      <a class="navbar-brand products" href="./products.html">Products</a>
+    </button>
+
+    <a class="navbar-brand space">|</a>
+
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+      <a class="navbar-brand reviews" href="./reviews.HTML">Reviews</a>
+    </button>
+
+    <a class="navbar-brand space">|</a>
+
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
+      <a class="navbar-brand contact_us" href="./contact.html">Contact Us</a>
+    </button>
+  </nav>
+
+
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-sm-1 content-padding home-header-content">
+      </div>
+      <div class="col-sm-2 content-padding home-header-content">
+      </div>
+
+      <div class="col-sm-6 content-padding home-header-content">
+
+        <img id="schnauzer-image" src="./images/schnauzer2.png" alt="schnauzer-logo">
+        <h1>Doggy Den</h1>
+
+      </div>
+
+      <div class="col-sm-1 content-padding home-header-content">
+        <img id="sun" src="./images/Sun.png" alt="Sun">
+      </div>
+      <div class="col-sm-1 content-padding home-header-content">
+
+        <img id="tree-image" src="./images/tree.png" alt="tree">
+      </div>
+
+      <div class="col-sm-1 content-padding home-header-content">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+
+  <div class="row">
+    <div class="col-sm-12 content-padding home-body-content">
+      <h3 class="body-headings">Products</h3>
+      <br> <br>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm content-padding home-body-content">
+        <h3 class="product-name" id="p1">Hand-made Dog Collar</h3>
+        <img id="dogCollar1" src="./images/collar.jpg" class="float-left" alt="collar1">
+      </div>
+      <div class="col-sm content-padding home-body-content">
+        <p id="para1">Our best seller! This beautiful hand-crafted dog collar is perfect for any dog. With adjustable straps to fit any size, you dog will look the finest of them all! Made from genuine leather.</p>
+      </div>
+      <div class="col-sm content-padding home-body-content">
+        <p id="para2">€49.99</p>
+        <button type="button" name="button" id="button1" onclick="bill1()">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm content-padding home-body-content">
+        <h3 class="product-name" id="p1">Premium Jumper</h3>
+        <img id="dogCollar1" src="./images/jumper.jpg" class="float-left" alt="collar1">
+      </div>
+      <div class="col-sm content-padding home-body-content">
+        <p id="para1">This work of art gives your pet a stylish look as well as providing them with warmth during the winter season. If you are worried about the size drop us an email via our contact page and we can see what we can do.</p>
+      </div>
+      <div class="col-sm content-padding home-body-content">
+        <p id="para2">€69.99</p>
+        <button type="button" name="button" id="button2" onclick="bill2()">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm content-padding home-body-content">
+        <h3 class="product-name" id="p1">Tasty Nibbly Bites</h3>
+        <img id="dogCollar1" src="./images/treats.jpg" class="float-left" alt="collar1">
+      </div>
+      <div class="col-sm content-padding home-body-content">
+        <p id="para1">Simply Delicious! These doggy treats are the best around and all of our taste testers can't get enough of them. Suitable for all dogs.</p>
+      </div>
+      <div class="col-sm content-padding home-body-content">
+        <p id="para2">€14.99</p>
+        <button type="button" name="button" id="button3" onclick="bill3()">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm content-padding home-body-content">
+        <h3 class="product-name" id="p1">Doggy Clippers</h3>
+        <img id="dogCollar1" src="./images/clipper.jpg" class="float-left" alt="collar1">
+      </div>
+      <div class="col-sm content-padding home-body-content">
+        <p id="para1">Want your dog to stand out from the crowd with a stylish cut? These premium clippers are perfect for cutting dog hair and for making them feel as confident as ever!</p>
+      </div>
+      <div class="col-sm content-padding home-body-content">
+        <p id="para2">€29.99</p>
+        <button type="button" name="button" id="button4" onclick="bill4()">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="bottom">
+
+  </div>
+
+
+  <div class="row">
+    <div class="col-xs-12 content-padding home-footer-content">
+      <p class="copyright">Copyright @ Barking Mad Industries</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
